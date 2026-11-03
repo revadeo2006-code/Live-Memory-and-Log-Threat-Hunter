@@ -1,0 +1,15 @@
+Project URL: http://127.0.0.1:5000
+
+Start from C:\MajorProject in PowerShell:
+
+$env:SECRET_KEY = "Set-a-long-random-local-secret"
+.\venv\Scripts\Activate.ps1
+python app.py
+
+Fresh-download demo sign-in:
+email: admin@localhost
+password: SentinelDemo!2026
+
+This bundled account is for local demonstration only. Change its password
+before using the app in any shared or deployed environment. Do not commit
+local credentials or threat_hunter.db.
